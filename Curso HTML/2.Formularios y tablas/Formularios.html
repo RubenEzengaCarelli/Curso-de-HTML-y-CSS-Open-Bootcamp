@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+    <title>Formularios</title>
+</head>
+<body>
+    <form class="pure-form pure-form-stacked" action="resultados.html" method="get">
+        <label for="nombre-de-usuario">Usuario</label>
+        <input  name="usuario" id="nombre-de-usuario" required>      
+        <label for="edad-de-usuario">Edad</label>
+        <input type="number" name="edadusuario" id="edad-de-usuario" min="5" max="18" step="2">       
+        <label for="fecha-naciemiento-de-usuario">Fecha de nacimiento de usuario</label>
+        <input type="date" name="fechanacimientousuario" id="fecha-naciemiento-de-usuario" required>
+        <label for="color-preferido-de-usuario">Color preferido</label>
+        <input type="color" name="colorpreferidousuario" id="color-preferido-de-usuario" required>      
+        <label for="legalidad-de-usuario">Marque si es mayor de edad</label>
+        <input type="checkbox" name="legalidadusuario" id="legalidad-de-usuario" required>          
+        <label for="email-de-usuario">Email</label>
+        <input type="email" name="emailusuario" id="email-de-usuario" required>
+        <span class="pure-form-message">This is a required field.</span>     
+        <label for="contraseña">Contraseña</label>
+        <input type="password" name="contraseña" id="contraseña" required >
+        <label for="comentarios">Comentarios</label>
+        <textarea name="comentarios" id="comentarios"></textarea>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

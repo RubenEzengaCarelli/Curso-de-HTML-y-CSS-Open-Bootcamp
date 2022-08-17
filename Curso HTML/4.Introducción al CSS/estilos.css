@@ -1,0 +1,36 @@
+/* Selector universañ */
+* {
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+}
+
+p {
+    /* color:rgb(17, 0, 255); */
+    font-size: 30px
+}
+
+/* Selector de clase */
+.encabezado {
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+/* Selector de id */
+#primera-noticia {
+    color: rgb(128, 255, 0);
+}
+
+#segunda-noticia {
+    color: rgb(133, 0, 160);
+}
+
+*.warming {
+    color: red
+}
+#segunda-noticia, #primera-noticia, h1 {
+    font-style: oblique;
+}

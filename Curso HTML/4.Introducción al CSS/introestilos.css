@@ -1,0 +1,49 @@
+/* Estilos para colores */
+.colores {
+    color:#82123C;
+}
+
+.color-paleta {
+    color: #293F14;
+}
+
+.color-rgba {
+    color: rgba(100, 200, 50, 0.7);
+}
+
+/* Fondos */
+.fondo {
+    /* background-color: #4B8F8C; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX2NfeXepBleig6mdUuIdDNKGWqmkNotqzQA&usqp=CAU");
+    background-position: right left;
+}
+
+.fondo-interno {
+    color: rgb(179, 198, 214);
+    /* background-color: #4B8F8C; */
+    background-image: url("imagenfondo.jpg");
+    background-position: center center;
+}
+
+/* Tamaños */
+.ancho {
+    background-color: #5c7247;
+    width: 100px;
+}
+
+.alto {
+    background-color: #a5476a;
+    height: 100px;
+    width: 100px;
+}
+
+.tarjeta {
+    border-style:solid;
+    border-color: #7a7a7a;
+    border-width: 1px;
+    padding: 10px 20px;
+    /* padding: 10px 20px 30px 40px; */
+    margin: 10px 20px;
+    margin: 10px 20px 30px 40px;
+    
+}

@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Monoton&family=Urbanist&display=swap');
+
+html {
+    font-family: 'Aboreto', cursive;
+    font-weight: 100;
+    font-size: larger;
+    font-style: italic ;
+}
