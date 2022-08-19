@@ -1,0 +1,21 @@
+/* div tiene display block por defecto */
+.div-1, .div-2 {
+    background-color: tomato;
+}
+
+/* span tiene display inline por defecto | NO SE LES PUEDE CAMBIAR EL TAMAÑO, a menos que le cambiemos el display a nline-block o block */
+
+.span-1 {
+    background-color: blue;
+    float: left;
+}
+
+.span-2 {
+    background-color: aquamarine;
+    float: right;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+}

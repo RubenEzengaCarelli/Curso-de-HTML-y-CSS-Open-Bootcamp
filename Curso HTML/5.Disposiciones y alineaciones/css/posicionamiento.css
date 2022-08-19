@@ -1,0 +1,45 @@
+/* static es el position POR DEFECTO y no se le pueden hacer cambios de altura y anchura */
+div {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+/* relative nos permite posicionar un objeto en relacion a la posicion que ocuparia si fuera estático */
+.relativo-1 {
+    position: relative;
+    left: 80px;
+}
+/* fixed posiciona en relacion a la pantalla */
+.fixed {
+    position: fixed;
+    left: 0px;
+    bottom: 300px;
+    background-color: rgb(240, 140, 140);
+    z-index: 6;
+}
+
+.relativo-2.contenedor {
+    position: relative;
+    height: 300px;
+    width: 450px;
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+/* Posicionamiento absoluto - Se posiciona en relacion al elemento padre relativo*/
+.absolute {
+    position: absolute;
+    bottom: 0px;
+    /* left: 0px; */
+    
+    /* top: 0px; */
+    background-color: blue;
+}
+
+/* Posicionamiento "pegajoso" - Al hacer scroll modifica su posicionamiento | relative --> fixed */
+.sticky {
+    position: sticky;
+    background-color: blue;
+    color: antiquewhite;
+    top: 0px;
+    z-index: 5;
+}
