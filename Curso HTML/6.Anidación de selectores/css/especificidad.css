@@ -1,0 +1,33 @@
+
+/* id - Tienen especificidad (1, 0, 0) */
+#h1-id {
+    color: blue;
+}
+
+/* Clases - Tienen especificidad (0, 1, 0) */
+.h1-class {
+    color: aquamarine;
+}
+
+/* Etiqueta tiene la menor especificidad (0, 0, 1) */
+h1.h1-class {
+    color: rgb(255, 255, 255);
+}
+
+/* Sumando especificidad */
+
+h1.h1-class#h1-id {
+    color: blueviolet !important;
+}
+
+/* Un mayor nivel de especificidad se obtiene dando estilos desde el html con style=" "... */
+
+/* La palabra clase important hace que un estilo prevalezca por más bajo que sea su nivel de especificidad - EVITAR SU USO */
+
+h1 {
+    color: crimson !important;
+}
+
+
+
+

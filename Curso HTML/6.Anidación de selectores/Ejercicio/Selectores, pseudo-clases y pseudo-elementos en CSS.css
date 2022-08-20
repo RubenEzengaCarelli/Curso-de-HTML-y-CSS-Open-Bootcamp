@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+.boton {
+    padding: 2.5rem 10rem;
+    background-color: #FCBA04;
+    border-radius: 0.7rem;
+    border: 0.1rem solid #fcba04b7;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.boton::before {
+    content: 'Pasa por encima';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6rem;
+    color: #F3F3F3;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .1rem #333;
+    transition: .2s ease;
+}
+
+.boton::after {
+    content: 'Hecho!';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    font-size: 1.6rem;
+    color: #F3F3F3;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .1rem #333;
+    transition: .2s ease;
+}
+
+.boton:hover::before {
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+}
+
+.boton:hover::after {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+

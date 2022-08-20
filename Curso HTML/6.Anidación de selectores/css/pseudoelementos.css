@@ -1,0 +1,76 @@
+* html {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    background-color: aquamarine;
+}
+
+.pseudoelementos-1 {
+    height: 50px;
+    width: 300px;
+    background-color: rgba(35, 35, 255, 0.534);
+}
+
+.parrafo {
+    font-size: large;
+}
+
+span.frase {
+    font-size: medium;
+    font-style: italic;
+}
+
+span.frase::before {
+    content: '<<';
+    font-size: small;
+}
+
+span.frase::after {
+    content: '>>';
+    font-size: small;
+}
+
+.pseudoelementos-2 {
+    height: 50px;
+    width: 300px;
+    background-color: rgba(0, 0, 133, 0.651);
+    color: antiquewhite;
+}
+
+.libro {
+    background-color: #D61C4E;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.libro p::first-letter {
+    font-size: xx-large;
+}
+
+.libro p::first-line {
+    color: aqua;
+}
+
+.libro p::selection {
+    background-color: transparent;
+    color: #D61C4E;
+}
+
+.listado {
+    background-color: #D61C4E;
+    color: aqua;
+}
+
+.listado li::marker {
+    color: #293462;
+}
+
+li.elemento-1:hover {
+    color: rgb(0, 0, 0);
+}
+
+li.elemento-2:hover {
+    color: #D61C4E;
+}

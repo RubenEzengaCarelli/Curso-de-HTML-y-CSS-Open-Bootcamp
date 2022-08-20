@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: #1CD6CE;
+}
+
+.hover {
+    background-color: #FEDB39;
+    height: 200px;
+    width: 300px;
+}
+/* Pseudoclase hover - Se activa solo cuando aso con el ratón por encima */
+.hover:hover {
+    background-color: #d1b431;
+}
+
+.listado {
+    padding: 15px;
+    color: bisque;
+    background-color: #293462;
+}
+
+.listado p:first-child:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: #1CD6CE;
+}
+
+a:link { 
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color: crimson;
+}
+
+a:hover {
+    color: pink;
+}
+
+a:active {
+    color: greenyellow;
+}
