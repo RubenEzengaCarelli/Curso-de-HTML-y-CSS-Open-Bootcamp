@@ -1,0 +1,85 @@
+h1 {
+    color: blue;
+    font-size: 4rem;
+}
+
+p {
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+/* @media screen and (max-width: 576px) {
+    h1 {
+        color: aqua;
+    }
+} */
+
+/* "all" es para afectar al screen, spech y al print  */
+/* @media all and (max-width: 576px) {
+    h1 {
+        color: aqua;
+    }
+} */
+
+/* Lo de arriba es lo mismo que poner lo de abajo (es decir, con min-width) */
+/* @media (max-width: 576px) {
+    h1 {
+        color: aqua;
+    }
+} */
+
+/* @media (min-width: 576px) {
+    h1 {
+        color: aqua;
+    }
+}
+
+@media (min-width: 995px) {
+    h1 {
+        color: red;
+    }
+} */
+
+
+/* Una forma de hacer lo mismo pero usando el max-width */
+@media (max-width: 1300px) {
+    h1 {
+        color: red;
+    }
+}
+
+@media (max-width: 995px) {
+    h1 {
+        color: aqua;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        color: blue;
+    }
+}
+
+@media (min-height: 300px) {
+    p {
+        color: black;
+    }    
+}
+
+@media (min-height: 500px) {
+    p {
+        color: rgb(255, 0, 0);
+    }    
+}
+
+@media (orientation: landscape) and (min-height: 400px) {
+    p {
+        color: yellow;
+    }
+}
+
+@media (min-height: 400px), (min-width: 500px) {
+    h1 {
+        color: tomato
+    }
+}

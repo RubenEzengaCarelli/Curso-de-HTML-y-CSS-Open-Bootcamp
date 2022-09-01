@@ -1,0 +1,34 @@
+.contenedor {
+    display:flex;
+    /* flex-direction: column; */
+    background-color: yellow;
+    gap: 10px;
+    padding: 1rem;
+    min-height: 6rem;
+    /* Eje principal */
+    justify-content: space-evenly;
+    /* Eje secundario */
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.item {
+    background-color: tomato;
+    padding: 0.5rem;
+    width: 10rem;
+}
+
+.item-2 {
+    align-self: flex-end;
+}
+
+.item-4 {
+    align-self: flex-end;
+}
+
+.item-3 {
+    align-self: flex-end;
+    /* justify-self: self-; */
+}
